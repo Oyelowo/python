@@ -27,7 +27,7 @@ class Student:
         #email can be created from name
         self.email = '{0}.{1}@helsinki.fi'.format(first, last).lower()
         
-#        Here, I use Student rather than self because I constant value that can be
+#        Here, I use Student rather than self because it's a constant value that can be
         #overwritten, as the number of Students applies to all. I use it under __init__
         #because it runs everytime I use the class on a new student object.
         
@@ -51,7 +51,7 @@ class Student:
         
 #Example of usage
 stud1 = Student('Oyelowo', 'Oyedayo', 99)
-stud2 = Student('Sonja','Kovisto', 93)
+stud2 = Student('Sonja','mari', 93)
 stud3 = Student(first='muna',last='skii', grade=4.2)
 
 #check ther attributes

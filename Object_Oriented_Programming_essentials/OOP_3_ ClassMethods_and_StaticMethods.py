@@ -13,7 +13,6 @@ Created on Tue Feb  6 02:53:43 2018
 ######################CLASS METHOD###################################################### 
 #To change a regular method to a class method, You can add a decorato#e.g "@classmethod.
 #with this, it can take the class as the first argument.
-
 #initialise simple classes attribute and create methods
 class Student:
 #    class variable
@@ -56,7 +55,7 @@ class Student:
     def set_raise_score(cls, score):
         cls.raise_grade= score
         
-#        Class methods can also be used as alternative constructive.
+#        Class methods can also be used as alternative constructor.
     #this will be used as alternative constructor to avoid repetition when creating new students
     @classmethod
     def from_String(cls, stud_str):
@@ -147,8 +146,8 @@ new_stud_3.grade
 
 ###############################################################################
 ############STATIC METHOD######################################################
-#While regular methods pass first argument as self and class methdo passes first
-#argument as cls, static methods don't automatically a pass anything. They dont pass the
+#While regular methods pass first argument as self and class method passes first
+#argument as cls, static methods don't automatically pass anything. They dont pass the
 #instance or the class. we include them in our class becuase they have logical  
 #connection with the class.
 #e.g take a date and tell if it is a working date or not. This does not have a 

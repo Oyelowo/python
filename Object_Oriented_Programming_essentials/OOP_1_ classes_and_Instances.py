@@ -29,7 +29,7 @@ class Student:
         
 #Example of usage
 stud1 = Student('Oyelowo', 'Oyedayo', 99)
-stud2 = Student('Sonja','Kovisto', 93)
+stud2 = Student('Sonja','mari')
 stud3 = Student(first='muna',last='skii', grade=4.2)
 
 #print(stud1)
